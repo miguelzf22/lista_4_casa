@@ -3,12 +3,12 @@
 int main()
 {
 	int RAV[9], RAC[9], i;
-	printf("Insira o RA infectado:\n");
+	printf("Insira o RA:\n");
 	for(i=0;i<=8;i++)
 	{
 		scanf("%i", &RAV[i]);
 	}
-	printf("O seu RA correto e:\n");
+	printf("O seu RA novo e:\n");
 	for(i=0;i<=8;i++)
 	{
 		if (i<=1)
